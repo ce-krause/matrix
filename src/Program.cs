@@ -130,7 +130,7 @@ public static class Program
 
     public static double? Matrix_Determinant_2x2(double[,] matrix)
     {
-        if (Matrix_IsSymmetric(matrix, 2))
+        if (!Matrix_IsSymmetric(matrix, 2))
         {
             Console.WriteLine("for Matrix_Determinant_2x2, matrix dimension should be 2x2");
 
