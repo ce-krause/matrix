@@ -244,7 +244,6 @@ public static class Program
 
     public static void Main()
     {
-        // INFO: só funcionam com matrizes quadradas
         Console.WriteLine("Running matrix functions\n\n---\n");
 
         double[,] a = { { 1, 2 }, { 3, 4 } };
